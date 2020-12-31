@@ -1,0 +1,43 @@
+{
+  "bundler": "rollup",
+  "shimport": "1.0.1",
+  "assets": {
+    "main": "client.b0aae0e4.js"
+  },
+  "css": {
+    "main": null,
+    "chunks": {
+      "index.svelte": [],
+      "infrestructure/sre.svelte": [],
+      "breakpoints.svelte": [],
+      "components/_layout.svelte": [],
+      "components/index.svelte": [],
+      "components/progress-indicators.svelte": [],
+      "components/navigation-drawers.svelte": [],
+      "components/selection-controls.svelte": [],
+      "components/date-pickers.svelte": [],
+      "components/data-tables.svelte": [],
+      "components/text-fields.svelte": [],
+      "components/snackbars.svelte": [],
+      "components/treeviews.svelte": [],
+      "components/tooltips.svelte": [],
+      "components/buttons.svelte": [],
+      "components/dialogs.svelte": [],
+      "components/selects.svelte": [],
+      "components/sliders.svelte": [],
+      "components/images.svelte": [],
+      "components/cards.svelte": [],
+      "components/chips.svelte": [],
+      "components/lists.svelte": [],
+      "components/menus.svelte": [],
+      "components/jump.svelte": [],
+      "components/tabs.svelte": [],
+      "typography.svelte": [],
+      "dark-mode.svelte": [],
+      "frontend/frontend.svelte": [],
+      "backend/postgresql.svelte": [],
+      "color.svelte": [],
+      "api/api.svelte": []
+    }
+  }
+}

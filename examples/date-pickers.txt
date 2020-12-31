@@ -1,0 +1,9 @@
+<script>
+  import { DatePicker } from "smelte";
+  let selected;
+</script>
+
+<div>
+<small>I selected {selected ? selected.toLocaleDateString() : "nothing"}</small>
+</div>
+<DatePicker on:change={i => selected = i.detail } />

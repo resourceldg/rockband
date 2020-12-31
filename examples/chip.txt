@@ -1,0 +1,14 @@
+<script>
+  import { Chip } from "smelte";
+
+  let closed = false;
+  let clicked = false;
+</script>
+
+<Chip
+  icon="face"
+  removable
+  selectable
+  on:close={() => closed = true}
+  on:click={() => clicked = true}
+>test</Chip>

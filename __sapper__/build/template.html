@@ -1,0 +1,11 @@
+<!DOCTYPE html> <html lang=en> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1" name=viewport> <meta content=#333333 name=theme-color> %sapper.base% <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons&display=swap" rel=stylesheet> <link href=global.css rel=stylesheet> <link href=prism.css rel=stylesheet> <link href=manifest.json rel=manifest> <link href=/logo.svg rel=icon type=image/svg+xml> <link href=favicon.png rel="alternate icon" type=image/png> %sapper.styles% %sapper.head% </head> <body> <div id=sapper>%sapper.html%</div> %sapper.scripts% <script> if (
+        !window.Promise ||
+        ![].includes ||
+        !Object.assign ||
+        !window.Map ||
+        !window.fetch
+      ) {
+        document["wr" + "ite"](
+          '<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,fetch,Array.prototype.find,Object.values"><\/script>'
+        );
+      } </script> 
