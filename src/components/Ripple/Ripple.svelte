@@ -4,7 +4,7 @@
   import createRipple from "../Ripple/ripple.js";
 
   $: ripple = createRipple(color, true);
-  $: hoverClass = `hover:bg-${color}-transLight`;
+  $: hoverClass = `hover:text-${color}-transLight`;
 </script>
 
 <style>

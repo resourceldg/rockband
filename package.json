@@ -3,7 +3,7 @@
   "description": "UI framework for Svelte using Tailwind CSS",
   "version": "1.0.18",
   "scripts": {
-    "dev": "sapper dev -p 7777 --no-hot" ,
+    "dev": "sapper dev -p 7777 --no-hot",
     "build": "rollup -c --config rollup-publish.config.js",
     "export": "sapper export --legacy --timeout 30000",
     "lint": "prettier --write --plugin-search-dir=. ./src/**/*"
@@ -39,10 +39,13 @@
     "postcss-input-range": "^4.0.0",
     "postcss-url": "^8.0.0",
     "rollup-plugin-postcss": "^2.0.3",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0",
     "svelte": "^3.24.0",
     "svelte-preprocess": "^3.9.11",
     "svelte-typed-component": "^1.1.1",
     "svelte-waypoint": "^0.1.4",
+    "swiper": "^6.4.5",
     "tailwind-css-variables": "^2.0.3",
     "tailwindcss": "^1.4.6",
     "tailwindcss-elevation": "^0.3.0",
@@ -54,6 +57,7 @@
     "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/runtime": "^7.0.0",
+    "@beyonk/svelte-carousel": "^2.8.0",
     "@now/node": "^0.9.0",
     "compression": "^1.7.1",
     "eslint": "^6.0.1",
@@ -78,6 +82,7 @@
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^7.0.2",
     "sapper": "^0.27.8",
-    "sirv": "^0.4.0"
+    "sirv": "^0.4.0",
+    "svelte-feather-icons": "^3.3.0"
   }
 }

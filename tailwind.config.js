@@ -13,15 +13,15 @@ const defaultColors = {
   success: "#4caf50",
   alert: "#ff9800",
   blue: "#2196f3",
-  dark: "#212121"
+  dark: "#212121",
 
   // These are material palette colors. You should keep only colors that you're using.
-  // red: "#f44336",
-  // pink: "#e91e63",
+  //red: "#f44336",
+  //pink: "#e91e63",
   // purple: "#9c27b0",
   // "deep-purple": "#673ab7",
   // indigo: "#3f51b5",
-  // blue: "#2196f3",
+  //blue: "#2196f3",
   // "light-blue": "#03a9f4",
   // cyan: "#00bcd4",
   // teal: "#009688",
@@ -43,7 +43,8 @@ module.exports = ({ colors = defaultColors, darkMode = true, ...config }) =>
         ? {
             backgroundColor: ["dark", "dark-hover", "hover"],
             borderColor: ["dark", "dark-focus"],
-            textColor: ["dark", "dark-hover", "dark-active"]
+            textColor: ["blue-gray","dark", "dark-hover", "dark-active"],
+            backgroundImage: ["nav", "wsp"]
           }
         : {},
       theme: {
@@ -55,7 +56,11 @@ module.exports = ({ colors = defaultColors, darkMode = true, ...config }) =>
             "4/7": "57.1428571%",
             "5/7": "71.4285714%",
             "6/7": "85.7142857%"
-          }
+          },
+          backgroundImage: theme => ({
+            'nav': "url('locura.svg')",
+            'wsp': "url('logo.svg')"
+           })
         },
         fontSize: {
           "5xl": "6rem",
@@ -93,6 +98,8 @@ module.exports = ({ colors = defaultColors, darkMode = true, ...config }) =>
           "black-transDark": "rgba(0,0,0,0.35)",
           "white-500": "#fff",
           black: "#000",
+          blue: "#0000ff",
+          "blue-aqua": "rgba(000,255,255,0.2)",
 
           ...buildPalette(colors),
 
@@ -126,23 +133,23 @@ module.exports = ({ colors = defaultColors, darkMode = true, ...config }) =>
             trans: "rgba(250, 250, 250, 0.5)",
             transLight: "rgba(250, 250, 250, 0.1)",
             transDark: "rgba(100, 100, 100, 0.2)"
-          }
+          },
 
-          // "blue-gray": {
-          //   "50": "#eceff1",
-          //   "100": "#cfd8dc",
-          //   "200": "#b0bec5",
-          //   "300": "#90a4ae",
-          //   "400": "#78909c",
-          //   "500": "#607d8b",
-          //   "600": "#546e7a",
-          //   "700": "#455a64",
-          //   "800": "#37474f",
-          //   "900": "#263238",
-          //   trans: "rgb(236,239,241,0.5)",
-          //   transLight: "rgb(236,239,241,0.6)",
-          //   transDark: "rgb(236,239,241,0.2)"
-          // }
+           "blue-gray": {
+             "50": "#eceff1",
+             "100": "#cfd8dc",
+             "200": "#b0bec5",
+             "300": "#90a4ae",
+             "400": "#78909c",
+             "500": "#607d8b",
+             "600": "#546e7a",
+             "700": "#455a64",
+             "800": "#37474f",
+             "900": "#263238",
+             trans: "rgb(236,239,241,0.5)",
+             transLight: "rgb(236,239,241,0.6)",
+             transDark: "rgb(236,239,241,0.2)"
+           }
         }
         
       },
@@ -177,6 +184,13 @@ module.exports = ({ colors = defaultColors, darkMode = true, ...config }) =>
               });
             });
 
+            addVariant("nav", ({ modifySelectors, separator }) => {
+              modifySelectors(({ className }) => {
+                return `${d} .${e(`nav${separator}${className}`)}`;
+              });
+            });
+
+
             addVariant("dark-hover", ({ modifySelectors, separator }) => {
               modifySelectors(({ className }) => {
                 return `${d} .${e(`dark-hover${separator}${className}`)}:hover`;
@@ -194,6 +208,12 @@ module.exports = ({ colors = defaultColors, darkMode = true, ...config }) =>
                 return `${d} .${e(
                   `dark-active${separator}${className}`
                 )}:active`;
+              });
+            });
+
+            addVariant("blue-gray", ({ modifySelectors, separator }) => {
+              modifySelectors(({ className }) => {
+                return `${d} .${e(`blue-gray${separator}${className}`)}:hover`;
               });
             });
           }

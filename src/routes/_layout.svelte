@@ -13,6 +13,7 @@
   import { navMenu, topMenu } from "../utils/menu.js";
   import { right, elevation, persistent, showNav } from "stores.js";
   import dark from "../dark.js";
+  
 
   const { preloading, page } = stores();
 
@@ -100,7 +101,7 @@
       Developer Getting Started!!
     </h6>
     <List items={navMenu}>
-      <span slot="item" let:item class="cursor-pointer">
+      <span slot="item" let:item class="cursor-pointer bg-nav">
         {#if item.to === 'infrestructure/sre'}
           <hr class="mt-4" />
           <h6
@@ -142,13 +143,14 @@
             selected={path.includes(item.to)}
             dense
             selectedClasses="bg-primary-transDark dark:bg-primary-transLight
-            hover:bg-primary-transDark dark-hover:bg-primary-transLight" />
+            hover:bg-blue-gray-transDark blue-gray:bg-blue-gray-transLight" />
         </a>
       </span>
     </List>
 
     <hr />
   </NavigationDrawer>
+
 
   <slot />
 </main>
