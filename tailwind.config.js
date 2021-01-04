@@ -23,7 +23,7 @@ const defaultColors = {
   // indigo: "#3f51b5",
   //blue: "#2196f3",
   // "light-blue": "#03a9f4",
-  // cyan: "#00bcd4",
+  cyan: "#00bcd4",
   // teal: "#009688",
   // green: "#4caf50",
   // "light-green": "#8bc34a",

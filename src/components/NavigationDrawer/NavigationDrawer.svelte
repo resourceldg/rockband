@@ -8,7 +8,7 @@
   const bp = breakpoints();
 
   const classesDefault = " fixed top-0 md:mt-16 w-auto drawer overflow-hidden h-full";
-  const navClassesDefault = `h-full w-full bg-nav dark:text-gray-200 absolute flex w-auto z-20 drawer
+  const navClassesDefault = `h-full w-full dark:bg-gray-900 dark:text-gray-200 absolute flex w-auto z-20 drawer
     pointer-events-auto overflow-y-auto`;
 
   export let right = false;

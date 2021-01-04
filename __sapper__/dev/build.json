@@ -2,20 +2,17 @@
   "bundler": "rollup",
   "shimport": "1.0.1",
   "assets": {
-    "main": "client.4f9e1ff8.js"
+    "main": "client.d1dfd421.js"
   },
   "css": {
     "main": null,
     "chunks": {
       "index.svelte": [],
-      "infrestructure/sre.svelte": [],
-      "breakpoints.svelte": [],
-      "typography.svelte": [],
-      "dark-mode.svelte": [],
-      "frontend/frontend.svelte": [],
-      "backend/postgresql.svelte": [],
-      "color.svelte": [],
-      "api/api.svelte": []
+      "playroom.svelte": [],
+      "discos.svelte": [],
+      "press.svelte": [],
+      "news.svelte": [],
+      "shop.svelte": []
     }
   }
 }

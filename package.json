@@ -83,6 +83,8 @@
     "rollup-plugin-terser": "^7.0.2",
     "sapper": "^0.27.8",
     "sirv": "^0.4.0",
-    "svelte-feather-icons": "^3.3.0"
+    "svelte-feather-icons": "^3.3.0",
+    "svelte-share-buttons-component": "^1.2.1",
+    "svelte-twitter-widgets": "^0.1.0"
   }
 }

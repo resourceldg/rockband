@@ -1,12 +1,15 @@
 export const navMenu = [
-  { to: "/components/jump", text: "All you need is ..." },
+  { to: "/", text: "NOTICIAS" },
+  { to: "playroom", text: "PLAYROOM" },
+  { to: "discos", text: "DISCOS" },
+  
+  { to: "press", text: "PRENSA" },
+  { to: "shop", text: "TIENDA" }
 
-  { to: "frontend/frontend", text: "Frontend" },
-  { to: "infrestructure/sre", text: "SRE" }
  
 ];
 
 export const topMenu = [
-  { to: "/components", text: "Components" },
-  { to: "/typography", text: "Typography" }, 
+  { to: "press", text: "PRENSA" },
+  { to: "shop", text: "TIENDA" }
 ];
