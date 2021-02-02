@@ -35,22 +35,22 @@
     height: 230px;
     width: auto;
   }
-
   .slide-content {
     display: flex;
     flex-direction: column;
-    height: 230px;
+    height: 500px;
+    width: auto;
     background-color: #0000;
     margin: 0;
     padding-bottom: 30px;
   }
 
   .slide-content header {
-    flex: 1;
+    height: 400px;
+    width: auto;
     background-size: cover;
     margin: 0;
     padding: 0;
-    height: 100px;
   }
 
   .slide-content section {
@@ -60,13 +60,56 @@
     padding-top: 30px;
     color: aqua;
   }
+
+  @media screen and (max-width: 900px) {
+    .slide-content {
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      width: auto;
+      background-color: #0000;
+      margin: 0;
+      padding-bottom: 30px;
+    }
+
+    .slide-content header {
+      height: 350px;
+      width: auto;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+
+    .slide-content section {
+      height: 100px;
+      margin: 0;
+      padding-bottom: 30px;
+      padding-top: 30px;
+      color: aqua;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .slide-content {
+      height: 350px;
+      width: auto;
+    }
+
+    .slide-content header {
+      height: 175px;
+      width: auto;
+    }
+
+    .slide-content section {
+      height: 100px;
+    }
+  }
 </style>
 
 <div class="demo">
 
   <Carousel perPage="1" dots="false">
     <div class="slide-content">
-      <header style="background-image: url(locura.svg)" />
+      <header style="background-image: url(fdm_1.jpg)" />
       <section>
         <div>
           <Share />
@@ -75,7 +118,7 @@
       </section>
     </div>
     <div class="slide-content">
-      <header style="background-image: url(//placekitten.com/180)" />
+      <header style="background-image: url(fdm_2.png)" />
       <section>
         <div>
           <Share />
@@ -94,14 +137,53 @@
     </div>
 
   </Carousel>
-</div>
-<div>
-  <p class="pb-4">
-    Waladocs is a documentation by Walatic We hope this tool helps you and
-    accompanies you in your work. If you find any error please report it
-    <a class="a" href="https://github.com/resourceldg/waladocs/issue">here</a>
-    You can do better if you fork this project and contribute.
-  </p>
-  <h3>Remember</h3>
-  <h4>" You have the potencial to make amazing things. "</h4>
+  <div class="mt-4">
+    
+    <h4>"Nuestra historia... "</h4>
+    <p class="pb-4">
+      Flor de Monos Musiqueros es una banda marplatense de rock mestizo que
+      nació en el 2012. En el año 2016 grabó su primer material discográfico
+      “Siempre libre, siempre vivo” en Kangrejoz Records. En el año 2018
+      lanzaron su segundo disco “Sentir Musiquero”, proyecto auto gestionado y
+      grabado en La Maravillosa Records, donde se fusionan estilos musicales y
+      letras orientadas a la realidad social, el valor de la vida y el sentir
+      por la tierra. El conjunto se caracteriza por tener influencias
+      latinoamericanas en sus ritmos y un fuerte arraigo a la música popular,
+      además de una fuerte identidad en sus letras. El respeto a las mujeres y a
+      los pueblos originarios, la libertad y el mestizaje entre nuestras raíces
+      y el día a día son reflejo de sus canciones. La banda realizó más de 140
+      presentaciones, acompañando a artistas reconocidos cómo No te va gustar,
+      Kapanga, Goy y los kangrejos, C4, Rondamon, Las manos de Filipi, entre
+      otros. Además de las fechas en su ciudad natal, han recorrido el país
+      llevando su música a Rio Colorado, Bahía Blanca, Pinamar, Villa Gessel,
+      Miramar, Santa Teresita, Santa Clara del Mar, Mar Azul, Nechochea, Tandil,
+      Otamendi, Mar de cobo, Rauch, Junin, Tres Arroyos, CABA, Azul, Dolores y
+      Ayacucho.
+    </p>
+     <h5>
+       Integrantes...
+     </h5>
+   <div class="grid grid-cols-1 md:grid-cols-2 m-4">
+   
+    <div><p>Abel Cardoso (Voz y Guitarra)</p><br>
+      <p>Juan Cerqueira (Guitarra)</p><br>
+      <p>Santiago Mikuki (Batería)</p><br>
+      <p>Lucas Caviedes (Bajo)</p><br>
+      <p>Julián Chule Bai (Teclado)</p><br>
+    </div>
+    <div>
+      <p>Lucas González (Percusión)</p><br>
+      <p>Germán Lutz (Saxo alto y coros)</p><br>
+      <p>Gonzalo Delgado ( Saxo tenor y coros)</p><br>
+      <p>Jerónimo Camara (Trompeta)</p><br>
+      <p> Mateo Bandi (trombón)</p>
+
+    </div>
+
+   </div>
+
+   
+    
+    
+  </div>
 </div>

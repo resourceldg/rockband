@@ -47,7 +47,7 @@
 
 <AppBar class={(i) => i.replace('primary-300', 'dark-600')}>
   <a href="." class="px-2 md:px-8 flex items-center">
-    <img src="/logo.svg" alt="Rock Band logo" width="54" />
+    <img src="/fdm_logo.svg" alt="Rock Band logo" width="70" />
     <h6 class="pl-3 text-white tracking-widest font-thin text-lg">Flor de Monos</h6>
   </a>
   <Spacer />
