@@ -40,7 +40,7 @@
     </div>
     
     <div class={active}>
-      <a href="https://www.instagram.com/softweel/">
+      <a href="https://instagram.com/flordemonos?igshid=931ol0zsybq6">
         <img
           src="/instagram.svg"
           alt="Intagram rockband"
@@ -50,7 +50,7 @@
       </a>
     </div>
     <div class={active}>
-      <a href="https://www.facebook.com/Softweel">
+      <a href="https://www.facebook.com/FlorDeMonos/">
         <img
           src="/face.svg"
           alt="Facebook rockband"

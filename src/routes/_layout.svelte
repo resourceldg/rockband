@@ -34,7 +34,7 @@
 
 <svelte:head>
   <title>Flor de Monos</title>
-  <meta name="description" content="Breaking Sounds" />
+  <meta name="Flore de Monos Musiqueros" content="Rock Mestizo" />
 </svelte:head>
 
 {#if $preloading}
@@ -54,7 +54,7 @@
   <Tabs navigation items={topMenu} bind:selected={path} />
 
   <Tooltip>
-    <span slot="activator">
+    <span class="hidden" slot="activator">
       <Button
         bind:value={$darkMode}
         small
@@ -75,10 +75,10 @@
       text
       on:click={() => showNav.set(!$showNav)} />
   </div>
-  <a href="https://github.com/resourceldg/waladocs" class="px-4 github">
+  <a href="https://instagram.com/flordemonos?igshid=931ol0zsybq6" class="px-4 github">
     <img src="/instagram.svg" alt="ig rockband" width="50" height="50" />
   </a>
-  <a href="https://github.com/resourceldg/waladocs" class="px-4 github">
+  <a href="https://www.facebook.com/FlorDeMonos/" class="px-4 github">
     <img src="/face.svg" alt="face rockband" width="50" height="50" />
   </a>
 
