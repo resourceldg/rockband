@@ -73,7 +73,7 @@
       remove="p-1 h-4 w-4"
       iconClass="text-white"
       text
-      on:click={() => showNav.set(!$showNav)} />
+      on:click={() => showNav.set(!$showNav )} />
   </div>
   <a href="https://instagram.com/flordemonos?igshid=931ol0zsybq6" class="px-4 github">
     <img src="/instagram.svg" alt="ig rockband" width="50" height="50" />
