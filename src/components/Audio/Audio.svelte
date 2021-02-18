@@ -155,18 +155,19 @@
 		align-items: center;
         justify-content: center;
         padding: 20px 0 0 0;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         
 		
 	}
 
 	#player-cont {
 		width: 250px;
-		height: 165px;
+		height: 205px;
 		padding: .7rem 1.5rem 0;
 		box-shadow: 0 0 5px black;
 		background: #222;
 		color: #bbb;
 		border-radius: 5px 5px 0 0;
+		margin-bottom: 20px;
 	}		
 </style>

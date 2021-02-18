@@ -22,9 +22,9 @@
 <style>
 	.slidecontainer {
 		width: 100%; /* Width of the outside container */
-		margin: 20px;
+		margin-top: 30px;
 		display: flex;
-		justify-content: flex-end;
+		justify-content: center;
 		align-items: center;
 	}
 	
