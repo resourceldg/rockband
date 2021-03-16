@@ -13,7 +13,7 @@ export const audioData = [
 	},
 	{
 		name: "Siempre libre siempre vivo - Canta pajarito",
-		url: "CANTA PAJARITO.mp3|",
+		url: "CANTA PAJARITO.mp3",
 	},
 	{
 		name: "Siempre libre siempre vivo - Ahora no nos frena el tiempo",

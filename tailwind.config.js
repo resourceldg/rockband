@@ -25,7 +25,7 @@ const defaultColors = {
   // "light-blue": "#03a9f4",
   cyan: "#00bcd4",
   // teal: "#009688",
-  // green: "#4caf50",
+  green: "#4caf50",
   // "light-green": "#8bc34a",
   // lime: "#cddc39",
   // yellow: "#ffeb3b",
@@ -43,7 +43,7 @@ module.exports = ({ colors = defaultColors, darkMode = true, ...config }) =>
         ? {
             backgroundColor: ["dark", "dark-hover", "hover"],
             borderColor: ["dark", "dark-focus"],
-            textColor: ["blue-gray","dark", "dark-hover", "dark-active"],
+            textColor: ["blue-gray","dark", "dark-hover", "dark-active","green"],
             backgroundImage: ["nav", "wsp"]
           }
         : {},
