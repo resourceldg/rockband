@@ -2,7 +2,7 @@
   import Audio from "./../components/Audio/Audio.svelte";
 </script>
 
-<h3 class="text-xl">Llevate nuestra música a donde quieras...</h3>
+<h3 class="text-xl">Prácticas...</h3>
 <div class="grid grid-cols-1">
   <div class="m-30">
     <Audio />
