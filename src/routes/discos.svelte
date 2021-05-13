@@ -1,7 +1,6 @@
-
 <script>
-   import Cards from "components/Cards.svelte"
+  import Cards from "components/Cards.svelte";
 </script>
-<h3>DISCOS</h3>
-<Cards/>
 
+<h3>DISCOS</h3>
+<Cards />

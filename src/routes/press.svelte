@@ -1,7 +1,9 @@
 <div>
   <h4 class="pb-8">PRENSA</h4>
 
-  <div class="grid md:grid-cols-2 gap-4 rounded-bl place-items-center shadow-lg p-4  mt-10 mb-10">
+  <div
+    class="grid md:grid-cols-2 gap-4 rounded-bl place-items-center shadow-lg p-4
+    mt-10 mb-10">
     <div class="grid self-center">
       <img src="producciones.svg " alt="disc" width="300" height="auto" />
     </div>

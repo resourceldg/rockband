@@ -5,18 +5,18 @@
 
   let carousels = [
     {
-      perPage: 3,
+      perPage: 3
     },
     {
       perPage: 3,
-      controls: false,
+      controls: false
     },
     {
-      perPage: { 320: 2, 768: 4 },
+      perPage: { 320: 2, 768: 4 }
     },
     {
-      perPage: { 320: 1, 768: 3 },
-    },
+      perPage: { 320: 1, 768: 3 }
+    }
   ];
 
   function changed(event) {
@@ -138,7 +138,7 @@
 
   </Carousel>
   <div class="mt-4">
-    
+
     <h4>"Nuestra historia... "</h4>
     <p class="pb-4">
       Flor de Monos Musiqueros es una banda marplatense de rock mestizo que
@@ -160,30 +160,35 @@
       Otamendi, Mar de cobo, Rauch, Junin, Tres Arroyos, CABA, Azul, Dolores y
       Ayacucho.
     </p>
-     <h5>
-       Integrantes...
-     </h5>
-   <div class="grid grid-cols-1 md:grid-cols-2 m-4">
-   
-    <div><p>Abel Cardoso (Voz y Guitarra)</p><br>
-      <p>Juan Cerqueira (Guitarra)</p><br>
-      <p>Santiago Mikuki (Batería)</p><br>
-      <p>Lucas Caviedes (Bajo)</p><br>
-      <p>Julián Chule Bai (Teclado)</p><br>
-    </div>
-    <div>
-      <p>Lucas González (Percusión)</p><br>
-      <p>Germán Lutz (Saxo alto y coros)</p><br>
-      <p>Gonzalo Delgado ( Saxo tenor y coros)</p><br>
-      <p>Jerónimo Camara (Trompeta)</p><br>
-      <p> Mateo Bandi (trombón)</p>
+    <h5>Integrantes...</h5>
+    <div class="grid grid-cols-1 md:grid-cols-2 m-4">
+
+      <div>
+        <p>Abel Cardoso (Voz y Guitarra)</p>
+        <br />
+        <p>Juan Cerqueira (Guitarra)</p>
+        <br />
+        <p>Santiago Mikuki (Batería)</p>
+        <br />
+        <p>Lucas Caviedes (Bajo)</p>
+        <br />
+        <p>Julián Chule Bai (Teclado)</p>
+        <br />
+      </div>
+      <div>
+        <p>Lucas González (Percusión)</p>
+        <br />
+        <p>Germán Lutz (Saxo alto y coros)</p>
+        <br />
+        <p>Gonzalo Delgado ( Saxo tenor y coros)</p>
+        <br />
+        <p>Jerónimo Camara (Trompeta)</p>
+        <br />
+        <p>Mateo Bandi (trombón)</p>
+
+      </div>
 
     </div>
 
-   </div>
-
-   
-    
-    
   </div>
 </div>
